@@ -50,14 +50,14 @@
   transition-timing-function: cubic-bezier(0, 1.17, 0.85, 0.99);
 }
 
-.card-title {
+.job-title {
   text-decoration: none;
   font-size: 1.3rem;
   color: white;
   text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
   position: absolute;
-  bottom: 20px;
-  left: 10px;
+  top: 20px;
+  left: 16px;
   background-color: transparent;
   z-index: 1000;
   -webkit-transition-duration: 0.7s;
@@ -70,7 +70,7 @@
           user-select: none;
 }
 
-.card-description {
+.job-description {
   text-decoration: none;
   font-size: 0.7rem;
   margin: 0 14px;
@@ -115,14 +115,9 @@
           filter: brightness(0.3);
 }
 
-.card:hover .card-title {
-  margin-bottom: 130%;
-}
-
-.card:hover .card-description {
+.card:hover .job-description {
   -webkit-animation: fadeAnimation 1s;
           animation: fadeAnimation 1s;
-  margin-bottom: 130%;
 }
 
 figure {
