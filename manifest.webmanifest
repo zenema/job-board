@@ -7,7 +7,7 @@
         "sizes": "192x192",
         "type": "image/png"
     }],
-    "name": "Awesome fox pictures",
-    "short_name": "Foxes",
-    "start_url": "/pwa-examples/a2hs/index.html"
+    "name": "Volunteer Job Board",
+    "short_name": "VolunteerBoard",
+    "start_url": "./index.html"
 }
