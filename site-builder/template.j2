@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="row">
             <div class="col s12 m12">
@@ -24,7 +23,7 @@
                 <div class="card teal darken-1">
                     <a class="btn-floating halfway-fab waves-effect waves-light orange"><i class="material-icons" >email</i></a>
                     <div class="card-content white-text">
-                        <span class="card-title">{{job.title}}</span>
+                        <span class="card-title" href="{{job.url}}">{{job.title}}</span>
                         <p>Company: {{job.company}}</p>
                         <p>Location: {{job.location}}</p>
                         <p>Posted: {{job.created_at}}</p>
