@@ -8,7 +8,7 @@ html_doc = """
 
 """Helper function. Generate pure original job post link"""
 def meta_job_redirect_to_full_link(meta_job_redirect_link):
-    regex = r'(&cid*?.*)|(utm*?.*&)|(campaign*?.*&)' # removes affiliate backlinks#
+    regex = r'(&cid*?.*)|(utm.*&)|(campaign*?.*&)' # removes affiliate backlinks#
     return re.sub(regex, "", r.get(meta_job_redirect_link).url)
 
 """Convert scraped metajob.de job-links into original job post links"""
