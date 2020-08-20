@@ -1,0 +1,13 @@
+{
+    "background_color": "purple",
+    "description": "Job board for volunteers.",
+    "display": "fullscreen",
+    "icons": [{
+        "src": "./icon/fox-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "name": "Volunteer Job Board",
+    "short_name": "VolunteerBoard",
+    "start_url": "./src/index.html"
+}
