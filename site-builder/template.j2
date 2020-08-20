@@ -21,7 +21,7 @@
 
                 {% for job in jobs %}
                 <div class="card teal darken-1">
-                    <a class="btn-floating halfway-fab waves-effect waves-light orange"><i class="material-icons" >email</i></a>
+                    <a href="{{job.url}}" class="btn-floating halfway-fab waves-effect waves-light orange"><i class="material-icons">arrow_forward</i></a>
                     <div class="card-content white-text">
                         <span class="card-title" href="{{job.url}}">{{job.title}}</span>
                         <p>Company: {{job.company}}</p>
@@ -59,7 +59,7 @@
                             </div>
 
                             <div class="modal-footer">
-                                <a href="{{job.url}}" class="modal-close waves-effect waves-teal orange white-text btn-flat"><i class="material-icons" href="{{job.url}}">arrow_forward</i></a>
+                                <a href="{{job.url}}" class="modal-close waves-effect waves-teal orange white-text btn-flat"><i class="material-icons">arrow_forward</i></a>
                                 <!-- <a href="#!" class="modal-close waves-effect waves-teal orange white-text btn-flat">CLOSE</a> -->
                             </div>
                         </div>
