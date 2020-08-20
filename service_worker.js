@@ -2,7 +2,7 @@ self.addEventListener('install', function(e) {
     e.waitUntil(
       caches.open('vojobo-store').then(function(cache) {
         return cache.addAll([
-          './src/index.html',
+          './public/index.html',
         //   '/pwa-examples/a2hs/index.js',
         //   './style.css',
         ]);
