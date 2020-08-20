@@ -12,7 +12,7 @@ with open("scraped-jobs.json", "r", encoding="utf8") as f:
     # print(data)
 
 # Write generated html
-with open('../public/index.html', 'w') as output_file:
+with open('../public/index.html', 'w', encoding="utf-8") as output_file:
     output_file.write(template.render(jobs=data))
 
 # for job in data:
